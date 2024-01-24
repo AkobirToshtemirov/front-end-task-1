@@ -1,0 +1,70 @@
+.main {
+    height: 90vh;
+}
+
+h2 {
+    background: rgb(204, 204, 204);
+    padding: 1rem 10rem;
+    color: white;
+}
+
+form {
+    display: flex;
+    padding: 1rem 10rem;
+    justify-content: space-between;
+}
+
+.left input,
+select,
+textarea,
+.right input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    width: 25rem;
+}
+
+.left label,
+.right label {
+    color: #929292;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.2rem 0;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.save-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 0;
+    align-items: center;
+    gap: 1rem;
+}
+
+.save-buttons .register-btn {
+    padding: 0.7rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.save-buttons .register-btn:hover {
+    background-color: #45a049;
+}
+
+.reset-btn {
+    width: 50%;
+    padding: 0.7rem;
+    background-color: white;
+    color: #929292;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

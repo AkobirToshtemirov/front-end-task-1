@@ -1,0 +1,83 @@
+.main {
+    background: rgba(204, 204, 204, 0.315);
+    height: 90vh;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.register-form {
+    width: 65%;
+    height: 75%;
+    background: white;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form h1 {
+    background: #ccc;
+    color: white;
+    padding: 1rem 1.8rem;
+    width: 100%;
+}
+.register-inputs {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.left label,
+.right label {
+    color: #929292;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.2rem 0;
+}
+
+.left input,
+.right input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    width: 23rem;
+}
+
+.register-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2rem;
+    gap: 1rem;
+}
+
+.register-buttons .register-btn {
+    padding: 0.5rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    width: 11rem;
+    cursor: pointer;
+}
+
+.register-buttons .register-btn:hover {
+    background-color: #45a049;
+}
+
+.reset-btn {
+    width: 11rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: #929292;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

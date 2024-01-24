@@ -1,0 +1,94 @@
+.main {
+    background: rgba(204, 204, 204, 0.418);
+}
+
+.categories {
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #ccc;
+}
+
+.categories div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.categories .ws {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: white;
+}
+
+.categories span {
+    font-size: 0.8rem;
+}
+
+.items {
+    width: 95%;
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+}
+
+.card {
+    background: white;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-body div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title h6 {
+    font-size: 1.2rem;
+}
+
+.card-title i {
+    font-size: 1rem;
+    color: #6d6d6d;
+}
+
+.card-text {
+    gap: 1rem;
+}
+
+.card-text p {
+    font-size: 0.8rem;
+}
+
+.card-text span {
+    font-size: 0.5rem;
+    color: #6d6d6d;
+}
+
+.price-link span {
+    font-size: 0.9rem;
+    color: #6d6d6d;
+}
+
+.price-link button {
+    padding: 0.1rem 0.6rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}

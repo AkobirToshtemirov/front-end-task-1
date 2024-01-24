@@ -1,0 +1,65 @@
+.main {
+    background: rgba(204, 204, 204, 0.315);
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.left-text {
+    padding: 1.5rem 0 0 0;
+}
+
+.left-text h4 {
+    font-size: 1.5rem;
+    padding: 0 0 0.5rem 0;
+}
+
+.card {
+    background: white;
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.card-text,
+.card-time {
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #635e5e;
+}
+
+.card-time {
+    padding-bottom: 0;
+}
+
+.price-link {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-link span {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.price-link .btn {
+    width: 50%;
+    padding: 0.7rem;
+    background-color: white;
+    color: #929292;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.price-link a {
+    text-decoration: none;
+}

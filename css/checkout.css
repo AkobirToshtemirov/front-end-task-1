@@ -1,0 +1,76 @@
+h2 {
+    background: rgb(204, 204, 204);
+    padding: 1rem 10rem;
+    color: white;
+}
+
+.orders {
+    margin: 1rem 10rem;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-info {
+    display: flex;
+    align-items: center;
+}
+
+.order img {
+    width: 7rem;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.order-info {
+    margin-left: 0;
+    width: 70%;
+}
+
+.order-price {
+    width: max-content;
+    justify-self: flex-end;
+}
+
+.total-price {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 10%;
+    border-top: 2px solid #ccc;
+    padding: 1rem 0;
+}
+
+.checkout-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.6rem 0;
+    align-items: center;
+    gap: 1rem;
+}
+
+.checkout-buttons .register-btn {
+    padding: 0.7rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+.checkout-buttons .register-btn:hover {
+    background-color: #45a049;
+}
+
+.reset-btn {
+    width: 20%;
+    padding: 0.7rem;
+    background-color: white;
+    color: #929292;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
